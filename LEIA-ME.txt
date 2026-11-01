@@ -30,3 +30,6 @@ PASTAS
   src/maisdoces/view   -> telas
   banco/               -> script do banco de dados com dados de teste
   lib/                 -> driver JDBC para conectar no MySQL
+
+
+teste
