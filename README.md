@@ -4,7 +4,7 @@ Sistema desktop para gerenciar uma confeitaria de doces gourmet, feito no Projet
 
 ## Status do projeto
 
-Em desenvolvimento
+Em desenvolvimento.
 
 ## Objetivo do software
 
