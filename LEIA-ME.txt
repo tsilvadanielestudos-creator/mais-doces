@@ -1,0 +1,32 @@
+MAIS DOCES - Projeto Integrador (Etapa 4)
+Aluno: Daniel Teixeira Silva
+
+COMO RODAR
+1. Deixe o MySQL ligado.
+2. Abra o projeto no NetBeans (File > Open Project) e clique em Run (F6).
+3. Na primeira vez o sistema cria o banco "mais_doces" sozinho (é só clicar em Sim).
+   - Se o MySQL do computador tiver senha, o sistema vai pedir: digite o usuário
+     e a senha do MySQL desse computador (os mesmos do MySQL Workbench).
+   - Também dá para criar o banco pelo Workbench: abra banco/maisdoces.sql e execute.
+
+LOGIN DO SISTEMA (todos com senha 123)
+  A tela de login já abre preenchida com o usuário atendente.
+  Para ver todas as telas, troque para admin.
+  admin        -> Gerente (acessa tudo)
+  atendente    -> Vendas, Produtos e Clientes
+  confeiteiro  -> Encomendas e Produtos
+  financeiro   -> Vendas, Caixa e Fornecedores
+
+O QUE O SISTEMA FAZ
+  - Cadastro de produtos, clientes, fornecedores e funcionários (salvar, alterar e excluir)
+  - Venda de balcão (baixa o estoque) e encomenda (vai para a produção)
+  - Controle das encomendas: custo e status (Em andamento > Finalizado > Entregue)
+  - Caixa: entradas das vendas, vendas a receber e saídas
+  - Menu que libera as telas conforme o cargo do funcionário
+
+PASTAS
+  src/maisdoces/model  -> classes (Produto, Venda, Cliente...)
+  src/maisdoces/dao    -> classes que acessam o banco (Conexao e DAOs)
+  src/maisdoces/view   -> telas
+  banco/               -> script do banco de dados com dados de teste
+  lib/                 -> driver JDBC para conectar no MySQL
